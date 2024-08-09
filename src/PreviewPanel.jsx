@@ -11,7 +11,7 @@ export default function PreviewPanel() {
       <select value={meshName} onChange={(e) => setMeshName(e.target.value)}>
         <option value="plane">plane</option>
         <option value="cube">cube</option>
-        <option value="susanne">susanne</option>
+        <option value="suzanne">suzanne</option>
       </select>
       <Canvas
         camera={{
