@@ -18,7 +18,7 @@ export default function PreviewPanel() {
           fov: 20,
           near: 0.1,
           far: 200,
-          position: [-4, 3, 3],
+          position: [3, 2, 7],
         }}
       >
         <Preview meshName={meshName} />
